@@ -1,0 +1,7 @@
+ static mali_bool mali_dvfs_table_update(void)
+{
+unsigned int i;
+unsigned int step_num = MALI_DVFS_STEPS;
+
+//if (samsung_rev() < EXYNOS4412_REV_2_0)
+//step_num = MALI_DVFS_STEPS - 1;
